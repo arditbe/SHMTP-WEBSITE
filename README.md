@@ -9,4 +9,11 @@ edhe aty nalt e keni add file
 Add File>Upload File>edhe i boni select Punen qe e keni 
 </p>
 
-<span style="color:orange;">Word up</span>
+<a href='https://shmt-website.netlify.app'>Website per view</a>
+
+<a href='https://shmt-website.netlify.app/ardit'>Ardit</a>
+<a href='https://shmt-website.netlify.app/arbias'>Arbias</a>
+<a href='https://shmt-website.netlify.app/mendim'>Mendim</a>
+<a href='https://shmt-website.netlify.app/lina'>Lina</a>
+<a href='https://shmt-website.netlify.app/erton'>Erton</a>
+
