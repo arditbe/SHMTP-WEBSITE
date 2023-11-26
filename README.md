@@ -1,2 +1,3 @@
 # SHMTP-WEBSITE
-REP PER PUBLIKIMIN E KODEV 
+
+Shiko punen e nxensve duke hapur direktorit me emrat e tyre
