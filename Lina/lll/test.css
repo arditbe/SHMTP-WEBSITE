@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#school-info {
+    color: #333;
+    font-size: 18px;
+}
+
+#school-name {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 2cm;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+}
+
+#buttons a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+#buttons a:hover {
+    color: #34407c;
+}
+
+#buttons a.active {
+    color: #34407c;
+    border-bottom: 2px solid #34407c;
+}
+.div1, .div2, .div3 {
+    width: 100%;
+    height: 50vh;
+    background:;
+    display: inline-flex;
+    justify-content: center;;
+}
+
+.div0, .div01, .div {
+    width: 30%;
+    height: 100vh;
+    margin-left: 30px;
+    background:;
+    display:grid;
+    justify-content: center;
+    grid-column-gap: 10px;
+}
+
+.div0 img, .div01 img, .div img {
+    width: 100%;
+    height: auto;
+}
