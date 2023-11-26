@@ -11,9 +11,12 @@ Add File>Upload File>edhe i boni select Punen qe e keni
 
 <a href='https://shmt-website.netlify.app'>Website per view</a>
 
-<a href='https://shmt-website.netlify.app/ardit'>Ardit</a>
-<a href='https://shmt-website.netlify.app/arbias'>Arbias</a>
-<a href='https://shmt-website.netlify.app/mendim'>Mendim</a>
-<a href='https://shmt-website.netlify.app/lina'>Lina</a>
-<a href='https://shmt-website.netlify.app/erton'>Erton</a>
+<ul>
+  <li><a href='https://shmt-website.netlify.app/arbias'>Arbias</a></li>
 
+<li><a href='https://shmt-website.netlify.app/lina'>Lina</a></li>
+<li><a href='https://shmt-website.netlify.app/mendim'>Mendim</a></li>
+<li><a href='https://shmt-website.netlify.app/ardit'>Ardit</a></li>
+<li><a href='https://shmt-website.netlify.app/erton'>Erton</a></li>
+
+</ul>
