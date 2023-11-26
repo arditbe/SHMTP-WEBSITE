@@ -18,5 +18,6 @@ Add File>Upload File>edhe i boni select Punen qe e keni
 <li><a href='https://shmt-website.netlify.app/mendim'>Mendim</a></li>
 <li><a href='https://shmt-website.netlify.app/ardit'>Ardit</a></li>
 <li><a href='https://shmt-website.netlify.app/erton'>Erton</a></li>
+<li><a href='https://shmt-website.netlify.app/milot'>Milot</a></li>
 
 </ul>
