@@ -1,0 +1,857 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Secular+One&display=swap');
+
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    font-family: 'poppins';
+    font-weight: 700;
+}
+.top-desktop{
+    z-index: 500;
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(9px);
+}
+.top-desktop img{
+    margin-left: 2cm;
+}
+.navigator{
+    float: left;
+    margin-left: auto;
+    width: auto;
+    margin-right: 30px;
+}
+.top-mobile{
+    display: none;
+}
+.navigator a{
+    text-decoration: none;
+    color: #080F32;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.more{
+    display: none;
+}
+@media screen and (max-width:800px) {
+    .top-desktop{
+        display: none;
+    }
+    .top-mobile{
+        position: fixed;
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid rgb(138, 138, 138);
+        z-index: 500;
+        background: white;
+
+    }
+    .top-mobile img{
+        margin-left: 20px;
+    }
+    .top-mobile button{
+        margin-right: 30px;
+        margin-left: auto;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border: thick;
+        border-radius: 10px;
+        background: #34407C;
+        color: white;
+    }
+    .sites{
+        position: fixed;
+        margin-top: 55px;
+        height: 100vh;
+        width: 100%;
+        background: white;
+        margin-left: -100cm;
+        z-index: 500;
+    }
+    .sites.reg{
+        margin-left: 0;
+    }
+    .more{
+        margin-top: 2cm;
+        display: grid;
+        margin-left: 40px;
+    }
+    .more a{
+        margin-bottom: 30px;
+        text-decoration: none;
+        color: #080F32;
+    font-weight: 600;
+
+    }
+}
+
+/*QETU MBARRON NAV BAR*/
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.infos{ 
+    width: 70%;
+    height: 5cm;
+}
+.infos h2{
+
+    font-size: 30px;
+}
+.infos button{
+    background: #34407C;
+    border: thick;
+    color: white;
+    width: 4cm;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.imgs{
+    width: 100%;
+    height: 7cm;
+    display: flex;
+    align-items: center;
+    margin-top: -4cm;
+
+}
+
+.imgs .img1{
+    width: 60%;
+    height: 6cm;
+    background: green;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-image: url(../img/fmit.png);
+    background-position: center;
+}
+
+.imgs .img2{
+    width: 38%;
+    height: 6cm;
+    border-radius: 20px;
+  
+    background: green;
+    background-image: url(../img/shumfmi.png);
+    background-position: center;
+}
+
+@media screen and (max-width:800px) {
+    .page1{
+        height: 110vh;
+        margin-bottom: 5cm;
+    }
+    .imgs{
+        width: 100%;
+        height: 7cm;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5cm;
+    
+    }
+    .imgs .img1{
+        width: 10cm;
+        max-width: 10cm;
+        height: 6cm;
+        background: green;
+        margin-right: 5px;
+        border-radius: 20px;
+        background-image: url(../img/fmit.png);
+        background-position: center;
+        margin-bottom: 5px;
+    }
+    
+    .imgs .img2{
+        width: 10cm;
+        max-width: 10cm;
+        height: 6cm;
+
+        border-radius: 20px;
+      background-size: cover;
+        background: green;
+        background-position: center;
+        background-image: url(../img/shumfmi.png);
+        
+}
+}
+
+/*PAGE 2*/
+
+.page2{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    background: #F7F7F7;
+}
+
+.programs{
+    width: 50%;
+    height: 50vh;
+}
+.programs .txt{
+    width: 70%;
+    margin-left: 2cm;
+}
+
+.b{
+    margin-left: 2cm;
+    width: 60%;
+}
+.b button{
+    width: 4cm;
+    background: none;
+    border: thick;
+    text-align: left;
+    margin-top: -2px;
+}
+
+.rumu{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 29px;
+    left: -10px;
+}
+.text{
+    width: 50%;
+    height: 50vh;
+}
+@media screen and (max-width:800px) {
+    .page2{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        background: #F7F7F7;
+    }
+    
+
+    .programs{
+        width: 100%;
+        height: 50vh;
+    }
+    .programs .txt{
+        width: 70%;
+        margin-left: 2cm;
+    }
+    
+    .b{
+        width: 80%;
+    }
+    .b button{
+        width: 4cm;
+        background: none;
+        border: thick;
+        text-align: left;
+        margin-top: -2px;
+    }
+    
+    .rumu{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        position: relative;
+        top: 29px;
+        left: -10px;
+    }
+    .text{
+        width: 100%;
+        height: 50vh;
+
+}
+}
+
+/*PAGE 3*/
+.page3{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.p13{
+    width: 50%;
+    height: 80vh;
+    padding-left: 20px;
+}
+
+.costumul button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: thick;
+    margin-right: 10px;
+    font-size: 10px;
+    background: #E9702D;
+    color: white;
+}
+
+.p23{
+    width: 50%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+
+}
+.imgsp{
+    width: 100%;
+    height: 50vh;
+    margin-top: -6cm;
+    background: red;
+    background-image: url(../img/shkolla1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:800px) {
+    .page3{
+        margin-top: 5cm;
+        display: grid;
+        height: 190vh;
+    }
+    .p13{
+        width: 100%;
+        height: 50vh;
+    }
+    .p23{
+        margin-top: -15cm;
+        height: 50vh;
+        width: 100%;
+    }
+}
+
+
+.page3{
+    width: 100%;
+    justify-content: center;
+}
+.starting{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 2cm;
+    margin-bottom: 20px;
+
+}
+.starting h2{
+    margin-left: 40px;
+}
+.starting button{
+    float: right;
+    margin-left: auto;
+    margin-right: 40px;
+    width: 4cm;
+    height: 40px;
+    border: thick;
+    border-radius:40px ;
+    background: #34407C;
+    color: white;
+}
+.mid{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.prog{
+    width: auto;
+    max-width: 79%;
+    height:auto;
+    display: table;
+    justify-content: center;
+}
+.prog button{
+    width: 12cm;
+    height: 8cm;
+    text-align: left;
+    border: thick;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.prog h3{
+font-size: 20px;
+}
+.mobile-button{
+    opacity: 0;
+}
+@media  screen and (max-width:800px) {
+    .page3 h2{
+        margin-top: 90px;
+    }
+    .page3{
+        width: 100%;
+        height: auto;
+    }
+    .starting{
+        width: 100%;
+        font-size: 15px;
+    }
+    .starting{
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .prog button{
+        width: 100%;
+        height: 8cm;
+        text-align: left;
+        border: thick;
+        margin-bottom: 5px;
+        border-radius: 15px;
+    }
+    .starting button{
+        display: none;
+    }
+    .mobile-button{
+        opacity: 10;
+    }
+}
+
+/*page 4*/
+
+.page4{
+    width: 100%;
+    height: 100vh;
+    background: #080F32;
+
+}
+
+.p4i{
+    width: 100%;
+    height: 4cm;
+    display: flex;
+    color: white;
+
+    align-items: center;
+}
+.p4i h1{
+    margin-left: 50px;
+}
+
+.next{
+    float: right;
+    margin-left: auto;
+    margin-right: 90px;
+}
+
+.next button{
+    width: 35px;
+    height: 35px;
+    border-radius:50% ;
+    border: thick;
+    font-size: 25px;
+}
+
+.storie{
+    width: 100%;
+    height: 9cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid white;
+
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    background: red;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.storit{
+    width: 14cm;
+    margin-left: 10px;
+    height: 8cm;
+    background: #131B43;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.storit button{
+    width: auto;
+    height: 40px;
+    border: thick;
+    margin-top: 10px;
+    color:white;
+    background: #1c2868;
+    border-radius: 8px 2px 8px 2px;
+    margin-bottom: 5px;
+}
+.awes{
+    width: 100%;
+    height: 40vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awes .tchs{
+    width: 9.9cm;
+    height: 7cm;
+    margin-left: 15px;
+    background: #131B43;
+    color: white;
+    border-radius: 15px 5px 15px 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.tchs i{
+    font-size: 50px;
+}
+@media  screen and (max-width:800px) {
+    .page4{
+        height: auto;
+    }
+    .p4i button{
+display: none;
+    }
+    .storie{
+        width: 100%;
+        display: grid;
+        border: none;
+    }
+    .storit{
+        width: 89%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .awes{
+        width: 90%;
+        height: 100vh;
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10cm;
+        margin-left:19px;
+    }
+   
+    .awes .tchs{
+        width: auto;
+        height:auto;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        background: #131B43;
+        color: white;
+        border-radius: 15px 5px 15px 5px;
+        padding-top: 5px;
+    }
+}
+/*PAGE 5*/
+
+.page5{
+    width: 100%;
+    height: 70vh;
+}
+
+.dtinfo{
+    width: 98%;
+height: auto;
+padding-left: 15px;
+}
+
+.dtinfo p{
+    width: 15cm;
+}
+.dtinfo button{
+    width: auto;
+    height: 40px;
+    border-radius: 40px;
+    background: #1c2868;
+    color: white;
+    border: thick;
+    float: right;
+    margin-top: -90px;
+    margin-right: 20px;
+}
+
+.mains{
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.mains{
+    width: auto;
+    max-width: 100%;
+    height:auto;
+    justify-content: center;
+    display: flex;
+}
+.mains button{
+    width: 14cm;
+    height: 6cm;
+    
+    text-align: left;
+    border: thick;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+.prf-tch{
+    width: 4cm;
+    height: 6cm;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/teacher.jpg');
+    margin-left: 0px;
+    position: absolute;
+    margin-top: -3cm;
+    margin-left: -5px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.thingss{
+    margin-left: 5cm;
+    width: 7cm;
+}
+.page5mob{
+    display: none;
+}
+@media  screen and (max-width:800px) {
+    .page5{
+        display: none;
+    }
+.page5mob{
+    display: grid;
+    width: 100%;
+    margin-top: 2cm;
+}
+.tch-mob button{
+    width: 80%;
+ height: 12cm;
+ background-image: url(../img/teacher.jpg);
+ background-size: cover;
+ background-position: center;
+ border-radius: 15px;
+ border: thick;
+}
+}
+/*PAGE 6*/
+
+.page6{
+    width: 100%;
+    height: 100vh;
+    padding-top: 3cm;
+}
+
+.p6t{
+    width: 90%;
+    margin-left: 50px;
+    height: 4cm;
+    padding-left: 20px;
+}
+
+.p6t p{
+    width: 12cm;
+}
+.p6t button{
+    float: right;
+    margin-top: -1cm;
+    width: 4cm;
+    height: 40px;
+    border: thick;
+    border-radius: 40px;
+    background: #1c2868;
+    color: white;
+}
+
+.news{
+    width: 100%;
+    height: 15cm;
+    display: flex;
+    align-items: center;
+}
+
+.nws{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.nws button{
+    width: 10cm;
+    height: 7cm;
+    border: thick;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.textb{
+    text-align: left;
+}
+.ingo{
+    width: 100%;
+    height: auto;
+    background: #34407C;
+    color: white;
+    margin-top: -25px;
+    border-radius: 20px;
+}
+.phb{
+    margin-left: -5px;
+width: 103%;
+height: 7cm;
+border-radius: 20px;
+background-image: url(../img/oke.png) ;
+background-size: cover;
+
+background-position: center;
+}
+.mbh3{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .page6{
+    height: 110vh;
+        margin-top: 7cm;
+    }
+    .p6t{
+        display: none;
+    }
+    .nws{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: left;
+        margin-left: -10px;
+    }
+    .phb {
+        margin-left: -0px;
+        width: 100%;
+        height: 7cm;
+        border-radius: 20px;
+        background-image: url(../img/oke.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .nws button{
+        width: 100%;
+        margin-bottom: 4cm;
+        height: 7cm;
+        border: thick;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 20px;
+    }
+    .mbh3{
+        display: subgrid;
+    }
+}
+/*FOOTER */
+.footers{
+    width: 100%;
+    height: 60vh;
+    background: #131B43;
+}
+
+.mor{
+width: 100%;
+height: 4cm;
+display: inline-flex;
+align-items: center;
+border-bottom: 2px solid white;
+}
+
+.mor img{
+    width: 5cm;
+    height: 1.6cm;
+    margin-left: 20px;
+}
+
+
+.mor .btsn{
+    float: right;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.btsn button{
+    width: 5cm;
+    color: white;
+
+    height: 3cm;
+    border: thick;
+    background: transparent;
+}
+
+.c1 i{
+    margin-right: 10px;
+}
+
+.links{
+    width: 100%;
+    height: auto;
+}
+
+.links button{
+    float: right;
+    position: relative;
+    right:  4cm;
+    margin-top: 2cm;
+    width: auto;
+    background: transparent;
+    margin-left: 2cm;
+    color: white;
+    height: auto;
+    border: thick;
+}
+.links .rlinks{
+    display: grid;
+    width: auto;
+}
+
+.links a{
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.w{
+    color: white;
+    background: #080F32;
+}
+@media screen and (max-width:800px) {
+    .footers{
+        height: 150vh;
+    }
+    .mor{
+        margin-top: 4cm;
+        width: 100%;
+        height: auto;
+        display:grid;
+        align-items: center;
+        border-bottom: 1px solid white;
+
+        }
+        .links{
+            text-align: left;
+            position: relative;
+            width: 8cm;
+            display: grid;
+            margin-left: 40px;
+        }
+       
+}
