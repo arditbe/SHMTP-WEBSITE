@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+
+    <!--
+        qekjo o kejt navi mobile/desktop
+    -->
+
+    <div class="top-desktop">
+        <img src="img/logo.png" alt="" width="180">
+   <div class="navigator">
+    <a href="index.html" style="color: #E9702D;">Ballina</a>
+    <a href="about/index.html">Rreth nesh</a>
+    <a href="sektoret/sectors.html">Drejtimet</a>
+    <a href="staf/staf.html">Stafi</a>
+    <a href="creators/index.html">Creators</a>
+   </div>
+    </div>
+    <div class="top-mobile">
+        <img src="img/logo.png" alt="" width="180">
+        <button><i id="icon" class="fi fi-br-menu-burger" onclick="opef()"></i></button>
+    </div>
+    <div class="sites" id="rs">
+       <div class="more">
+        <a href="index.html" style="color: #E9702D;">Home</a>
+        <a  href="about/index.html">Rreth nesh</a>
+        <a href="sektoret/sectors.html">Drejtimet</a>
+        <a href="staf/staf.html">Stafi</a>
+        <a href="creators/index.html">Creators</a>
+       </div>
+    </div>
+<script>
+    function opef(){
+    document.getElementById('rs').classList.toggle('reg')
+let ico = document.getElementById('icon');
+if(ico.className === "fi fi-br-menu-burger"){
+    ico.className = "fi fi-rr-cross";
+}
+else{
+    ico.className = "fi fi-br-menu-burger"
+}
+    }
+</script>
+    <!--
+        qetu perfundon navi
+    -->
+    <div class="page1">
+        <div class="s1">
+      <span>
+        <h1>‘’Edukimi nuk është përgatitje për jetën; edukimi është vetë jeta.’’</h1>
+        <button>Rreth nesh</button>
+      </span>
+        </div>
+        <div class="s2">
+            <div class="img"></div>
+        </div>
+    </div>
+    <div class="things">
+      <div class="mb">
+        <button style="border: none;"><h2>60+</h2> <p>Eksperienca  </p></button>
+        <button><h2>10+</h2> <p>Profilet</p></button>
+        <button><h2>70+</h2> <p>Stafi shkollor</p></button>
+        <button><h2>500+</h2> <p>Numri i nxënësve</p></button>
+
+      </div>
+
+    </div>
+   <!--qetu perfundon navi-->
+   <div class="page2">
+    <div class="infos">
+        <button><h2>Historiku i shkolles</h2>
+        <p>Shkolla teknike e ka filluar punën më 1 shtator 1958 në objektin e Shkollës Fillore
+            “25 Maji”, tani “Gjon Serreçi” dhe ka vazhduar në të njëjtin objekt deri më
+            31.08.1966.</p></button>
+            <br><br>
+            <a href="about/index.html" class="button-link">
+                <button>Vazhdo</button>
+            </a>
+            
+          </div>
+    <div class="imgwall">
+        <!--kush do qe i qet fotot ncss shkon e bon ctrl + F edhe e shkrun IMG WALL e ki aty
+        bacgkround-image(url); suksese!
+        -->
+    </div>
+   </div>
+   <!--Qetu fillon page 3-->
+   <div class="page3">
+   <div class="starting">
+    <h2>Drejtimet tona</h2>
+    <button>Meso meshum</button>
+   </div>
+
+  <div class="mid">
+    <div class="prog">
+       
+<center>
+    <button>
+        <img src="img/icon.png" alt="">
+        <h3>Drejtimi i Makinerise</h3>
+        <p>Drejtimi i makinerisë nxënësve u mundëson që të mësojnë inxhinierinë e
+            metaleve, dizajnin e produkteve, termodinamikën, automatizimin, makinat CNC,
+            motoristikën. Projektet praktike dhe eksperimentale, zhvillojnë aftësitë teknike dhe
+            analitike dhe hapin dyert për studime në nivele të larta, në teknologji dhe
+            inteligjencë artificiale dhe për tregun e punës.</p>
+    </button><br>
+    <button>
+        <img src="img/icon.png" alt="">
+        <h3>Drejtimi i Elektroteknikes</h3>
+        <p>Elektroteknika interpreton, zhvillon dhe zbaton njohuritë dhe proceset tekniko-teknologjike nga
+            energjetika, elektronika si dhe nga informatika.Nxënësitë përvetësojnë njohuritë bazike
+            elektroteknike deri tek instalimet elektrike. Bazat e elektronikës dhe elektronikës digjitale deri
+            tek telekomunikimi, sistemet dhe programet operative kompjuterike.
+            Dega elektroteknikës krijon kuadro për epokën digjitale.</p>
+    </button>
+    <button>
+        <img src="img/icon.png" alt="">
+        <h3>Drejtimi i Ndertimtarise</h3>
+        <p>Në drejtimin e Ndërtimtarisë, nxënësit aftësohen të punojnë në firma ndërtimore, siq janë murosja, betonimi, punimi i skeletit nga armatura, suvatimi, ndërtimi i kulmeve dhe mbulimi i tyre, të cilat janë aktuale dhe konsiderohen si prioritet për të ardhmen. Nisur nga kjo, nxenësit mund të punësohen në kompani të ndryshme ndërtimi.</p>
+    </button>
+</center>
+       </div>
+       
+  </div>
+<center>
+    <br>
+
+</center>
+</div>
+
+<!--Page 5-->
+<div class="page5">
+    <div class="dtinfo">
+        <h2>Stafi drejtues dhe mesimdhenesit</h2>
+        <br><br>
+    <button>Shiko Stafin</button>
+    </div>
+        <div class="mains">
+            <div class="box">
+               <center>
+    
+                <button>
+                    <div class="prf-tch">
+    
+                        <div class="thingss">
+                            <br><br><br>
+                            <h1>Sami Jahiu</h1>
+                        <h3>Drejtor</h3>
+                        
+                        </div>
+                    </div>
+                   
+                </button>
+                <button>
+                    <div class="prf-tch">
+                        <div class="thingss">
+                            <br><br><br>
+                            <h1>Gafurr Halili</h1>
+                        <h3>Zevendes Drejtor</h3>
+                       </div>
+                    </div>
+                   
+                </button>
+                <button>
+                    <div class="prf-tch">
+                        <div class="thingss">
+                            <h1>Isuf Fazliu</h1>
+                        <h3>Sekretar</h3>
+                        </div>
+                    </div>
+                   
+                </button>
+                <button>
+                    <div class="prf-tch">
+                        <div class="thingss">
+                            <h1>Name Surname</h1>
+                        <h3>Kordinator</h3>
+                       </div>
+                    </div>
+                   
+                </button>
+    
+    </center>
+        
+        </div>
+    </div>
+    </div>
+    <!--PAGE 5 PER MOBILE-->
+    <div class="page5mob">
+    <center>
+        <h3>Stafi drejtues dhe mesimdhenesit</h3>
+        <div class="tch-mob">
+            <button>
+                <div class="im-mob"></div>
+            </button>
+            <h3>Sami Jahiu</h3>
+            <p>School Director</p>
+        </div>
+        <div class="tch-mob">
+            <button>
+                <div class="im-mob"></div>
+            </button>
+            <h3>Teacher name</h3>
+            <p>School Director</p>
+        </div>
+        <div class="tch-mob">
+            <button>
+                <div class="im-mob"></div>
+            </button>
+            <h3>Teacher name</h3>
+            <p>School Director</p>
+            
+        </div>
+    </center>
+    </div><br><br><br>
+<!--ktu fillon page 4-->
+
+<div class="page4">
+
+    <div class="p4i">
+        <h1>Storie suksesi</h1>
+        <div class="next">
+        <button><i class="fi fi-rr-arrow-small-left"></i></button>
+        <button><i class="fi fi-rr-arrow-small-right"></i></button>
+        </div>
+    </div>
+<div>
+   
+</div>
+<div class="storie">
+<center>
+    <div class="storit">
+        <!-- <p>‘’Lorem ipsum dolor sit amet consectetur. Eget felis a adipiscing sed purus dignissim. Mattis tempus risus proin elit lectus. Tristique integer nisl aliquam vivamus. Egestas quis in risus senectus at.’’</p> -->
+        <div class="profile"></div>
+        <div class="stars">
+            <i class="fi fi-rr-star"></i>
+            <i class="fi fi-rr-star"></i>
+            <i class="fi fi-rr-star"></i>
+            <i class="fi fi-rr-star"></i>
+
+            <h1>COMING SOON</h1>
+    
+        </div>
+        <!-- <button>Dhurata Halimi | Student at SHMT</button> -->
+    </div>
+    
+</center>
+<center>
+    <div class="storit">
+        <!-- <p>‘’Lorem ipsum dolor sit amet consectetur. Eget felis a adipiscing sed purus dignissim. Mattis tempus risus proin elit lectus. Tristique integer nisl aliquam vivamus. Egestas quis in risus senectus at.’’</p> -->
+        <div class="profile"></div>
+        <div class="stars">
+            <i class="fi fi-rr-star"></i>
+            <i class="fi fi-rr-star"></i>
+            <i class="fi fi-rr-star"></i>
+            <i class="fi fi-rr-star"></i>
+            <h1>COMING SOON</h1>
+
+            
+    
+        </div>
+        <!-- <button>Dhurata Halimi | Student at SHMT</button> -->
+    </div>
+</center>
+</div>
+</div>
+<!--PAGE 6-->
+
+<!--footeri-->
+
+<div class="footers">
+   <div class="mor">
+    <img src="img/logo.png" alt="">
+    <div class="btsn">
+        <button>
+            <div class="c1">
+                <h4><i class="fi fi-rr-phone-call"></i>Kontakti </h4>
+            <p>+383-48123456</p>
+
+            </div>
+
+        </button>
+        <button>
+            <div class="c1">
+                <h4><i class="fi fi-rr-clock-three"></i>Orari punues </h4>
+                <p>Mon - Fri 8 AM - 7:30 PM</p>
+            </div>
+        </button>
+        <button>
+            <div class="c1">
+                <h4><i class="fi fi-rr-marker"></i>Lokacioni</h4>
+                <p>Rr. Besim Rexhepi, Ferizaj</p>
+            </div>
+        </button>
+
+    </div>
+   </div>
+   <div class="links">
+  <button>
+    <h4>Na ndjekni</h4>
+    <i class="fi fi-brands-facebook"></i>
+  </button>
+
+    <button>
+        <h4>Qucik Links</h4>
+        <div class="rlinks">
+        <a href="/about/index.html">Rreth nesh</a>
+        <a href="">Drejtimet</a>
+        <a href="">Stafi</a>
+        <a href="">Creators</a>
+    </div>
+    
+    </button>
+    
+   </div>
+ 
+</div>
+<div class="w">
+    <div class="thing">
+        <center>
+            Copyright © 2024 - Shkolla e Mesme Teknike ‘’Pjeter Bogdani’’ Ferizaj
+        </center>
+       </div>
+</div>
+</body>
+</html>
+
+

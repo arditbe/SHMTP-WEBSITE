@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Secular+One&display=swap');
+
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    font-family: 'poppins';
+    font-weight: 700;
+}
+.top-desktop{
+    z-index: 500;
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    display: inline-flex;
+    align-items: center;
+    background: white;
+}
+.top-desktop img{
+    margin-left: 2cm;
+}
+.navigator{
+    float: left;
+    margin-left: auto;
+    width: auto;
+    margin-right: 30px;
+}
+.top-mobile{
+    display: none;
+}
+.navigator a{
+    text-decoration: none;
+    color: #080F32;
+    margin-left: 20px;
+    font-weight: 600;
+    
+}
+.more{
+    display: none;
+}
+@media screen and (max-width:800px) {
+    .top-desktop{
+        display: none;
+    }
+    .top-mobile{
+        position: fixed;
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid rgb(138, 138, 138);
+        z-index: 500;
+        background: white;
+
+    }
+    .top-mobile img{
+        margin-left: 20px;
+    }
+    .top-mobile button{
+        margin-right: 30px;
+        margin-left: auto;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border: thick;
+        border-radius: 10px;
+        background: #34407C;
+        color: white;
+    }
+    .sites{
+        position: fixed;
+        margin-top: 55px;
+        height: 100vh;
+        width: 100%;
+        background: white;
+        margin-left: -100cm;
+        z-index: 500;
+    }
+    .sites.reg{
+        margin-left: 0;
+    }
+    .more{
+        margin-top: 2cm;
+        display: grid;
+        margin-left: 40px;
+    }
+    .more a{
+        margin-bottom: 30px;
+        text-decoration: none;
+        color: #080F32;
+    font-weight: 600;
+
+    }
+}
+
+/*page1*/
+
+.page1{
+    width: 100%;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    text-align: center;
+    width: 50%;
+}
+/* .info p{
+    text-align: center;
+} */
+
+@media screen and (max-width:800px) {
+.page1{
+    padding-top: 50px;
+}
+.info{
+    width: auto;
+}
+}
+
+/*PAGE 5*/
+
+.page5{
+    width: 100%;
+    height: 85vh;
+    background: #080F32;
+    color: WHITE;
+    
+}
+
+.dtinfo{
+    width: 98%;
+height: auto;
+padding-left: 15px;
+}
+
+.dtinfo p{
+    width: 15cm;
+}
+.dtinfo button{
+    width: auto;
+    height: 40px;
+    border-radius: 40px;
+    background: #1c2868;
+    color: white;
+    border: thick;
+    float: right;
+    margin-top: -90px;
+    margin-right: 20px;
+}
+
+.mains{
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.mains{
+    width: auto;
+    max-width: 100%;
+    height:auto;
+    justify-content: center;
+    display: flex;
+}
+.mains button{
+    width: 14cm;
+    height: 6cm;
+    
+    text-align: left;
+    border: thick;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+.prf-tch{
+    
+    width: 4cm;
+    height: 6cm;
+    background-size: cover;
+    background-position: center;
+    background-image: url(download.jpg);
+
+    margin-left: 0px;
+    position: absolute;
+    margin-top: -3cm;
+    margin-left: -5px;
+    border-radius: 20px 0px 0px 20px;
+}
+.box button{
+    background: #131B43;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.thingss{
+    margin-left: 5cm;
+    width: 7cm;
+}
+.page5mob{
+    display: none;
+}
+@media  screen and (max-width:800px) {
+    .page5{
+        display: none;
+        
+    }
+.page5mob{
+    display: grid;
+    width: 100%;
+    margin-top: 2cm;
+    background: #080F32;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.tch-mob button{
+    width: 80%;
+ height: 12cm;
+ background-image: url(../img/teacher.jpg);
+ background-size: cover;
+ background-position: center;
+ border-radius: 15px;
+ border: thick;
+}
+}
+
+/*PAGE2 */
+
+.page2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.page2 .opener-js{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.opener-js .he{
+    width: 80%;
+    height: 2cm;
+    border: thick;
+    color: #080F32;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.he i{
+    float: right;
+
+}
+
+
+.he1{
+    width: 80%;
+    margin-bottom: 2cm;
+    border:thick;
+    padding-top: 10px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: none;
+}
+.he1.openh1{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh2{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh3{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh4{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+
+.he1.openh5{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+
+.he1.openh6{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+
+.he1.openh7{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh8{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh9{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh10{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh11{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh12{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh13{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh14{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh15{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh16{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh17{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh18{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh19{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh20{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+.he1.openh21{
+    opacity: 0;
+    display: inline;
+    animation: fs 1s both;
+
+}
+
+.cntr{
+    width: 80%;
+    display: table;
+
+}
+
+@keyframes fs{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.c1{
+    display: flex;
+}
+.c2{
+    display: flex; 
+}
+.c3{
+    display: flex;
+}
+.he1 .phs{
+
+    width: 5cm;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    height: 6cm;
+    text-align: left;
+}
+
+
+.phs h4{
+    margin-bottom: -10px;
+}
+
+@media screen and (max-width:800px) {
+    .c1{
+        display: grid;
+        justify-content: center;
+    }
+    .c2{
+        display: grid;
+
+    }
+    .he1 .phs{
+        width: 5cm;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        height: 6cm;
+        margin-left: -8px;
+    }
+    
+}
+
+/*FOOTER */
+.footers {
+    width: 100%;
+    height: 60vh;
+    background: #131b43;
+  }
+  
+  .mor {
+    width: 100%;
+    height: 4cm;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+  }
+  
+  .mor img {
+    width: 5cm;
+    height: 1.6cm;
+    margin-left: 20px;
+  }
+  
+  .mor .btsn {
+    float: right;
+    margin-left: auto;
+    margin-right: 50px;
+  }
+  
+  .btsn button {
+    width: 5cm;
+    color: white;
+  
+    height: 3cm;
+    border: thick;
+    background: transparent;
+  }
+  
+  .c1 i {
+    margin-right: 10px;
+  }
+  
+  .links {
+    width: 100%;
+    height: auto;
+  }
+  
+  .links button {
+    float: right;
+    position: relative;
+    right: 4cm;
+    margin-top: 2cm;
+    width: auto;
+    background: transparent;
+    margin-left: 2cm;
+    color: white;
+    height: auto;
+    border: thick;
+  }
+  .links .rlinks {
+    display: grid;
+    width: auto;
+  }
+  
+  .links a {
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  .w {
+    color: white;
+    background: #080f32;
+  }
+  @media screen and (max-width: 800px) {
+    .footers {
+      height: 150vh;
+    }
+    .mor {
+      margin-top: 4cm;
+      width: 100%;
+      height: auto;
+      display: grid;
+      align-items: center;
+      border-bottom: 1px solid white;
+    }
+    .links {
+      text-align: left;
+      position: relative;
+      width: 8cm;
+      display: grid;
+      margin-left: 40px;
+    }
+  }
