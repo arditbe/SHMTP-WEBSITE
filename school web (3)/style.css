@@ -223,7 +223,7 @@ button {
   margin-top: 40px;
   width: 100%;
   height: 50%;
-  background-image: url("img/home1.png");
+  background-image: url("img/home11.png");
   background-size: contain;
 }
 
@@ -284,7 +284,7 @@ button {
   width: 4cm;
   height: 40px;
   border: thick;
-  border-radius: 40px;
+  border-radius: 400px;
   color: white;
   text-decoration: none; /* Remove default underline */
   display: inline-block; /* Ensure block level display */
@@ -301,6 +301,30 @@ button {
   border-radius: inherit; /* Inherit border radius from anchor */
   color: white;
 }
+
+.dtinfo1 {
+  width: 10%;
+  height: auto;
+  padding-left: 15px;
+}
+
+.dtinfo1 p {
+  width: 15cm;
+}
+.dtinfo1 button {
+  background-color: #131B43; 
+  border: none;
+  margin-left: -4cm;
+  padding: 0;
+  cursor: pointer;
+  width: 3cm;
+  height: 40px;
+  float:right;
+  text-align: center;
+  border-radius: inherit;
+  color: white;
+}
+
 /* end test */
 .mid {
   width: 100%;

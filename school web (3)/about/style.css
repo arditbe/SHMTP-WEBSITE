@@ -133,21 +133,21 @@ button{
 
  .imgs .img1{
     width: 60%;
-    height: 6cm;
+    height: 8cm;
     background: green;
     margin-right: 5px;
     border-radius: 20px;
-    background-image: url(../img/fmit.png);
+    background-image: url(../img/fmit.jpg);
     background-position: center;
 }
 
 .imgs .img2{
     width: 38%;
-    height: 6cm;
+    height: 8cm;
     border-radius: 20px;
   
     background: green;
-    background-image: url(../img/shumfmi.png);
+    background-image: url(../img/shumfmi.jpg);
     background-position: center;
 } 
 
